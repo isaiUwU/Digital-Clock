@@ -11,7 +11,7 @@ function calculateTime(){
     hour = hour % 12;
     hour = hour ? hour : '12';
     hour = hour < 10 ? '0' + hour : hour;
-    minute = minute < 10 ? '0'.minute : minute;
+    minute = minute < 10 ? '0.'minute : minute;
 
     document.getElementById("day").innerHTML = dayNames[dayNumber];
     document.getElementById("hour").innerHTML = 
